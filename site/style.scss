@@ -18,9 +18,10 @@ html {
 }
 
 body {
-	background: $white;
+	background: #FFCBCB;
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  color: #A63030;
+  text-align: center
 }
 
 .container {
@@ -32,7 +33,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkerGray;
+  color: #A63030;
   font-weight: bold;
 
   line-height: 1.7;
@@ -69,11 +70,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: #A63030;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: white;
   }
 }
 
@@ -156,7 +157,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid #FFFFFF;
 
   @include mobile {
     text-align: center;
@@ -164,7 +165,7 @@ img {
 }
 
 .site-avatar {
-  float: left;
+  float: center;
   width: 70px;
   height: 70px;
   margin-right: 15px;
@@ -181,7 +182,7 @@ img {
 }
 
 .site-info {
-  float: left;
+  float: center;
 
   @include mobile {
     float: none;
@@ -192,7 +193,8 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: #A63030;
+  text-align: center;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -201,8 +203,9 @@ img {
 }
 
 .site-description {
-  margin: -5px 0 0 0;
-  color: $gray;
+  margin: 10px 0 0 0;
+  color: #A63030;
+  text-align: center;
   font-size: 16px;
 
   @include mobile {
@@ -211,8 +214,8 @@ img {
 }
 
 nav {
-  float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  text-align: center;
+  margin-top: 10px; //
   font-family: $helveticaNeue;
   font-size: 18px;
 
@@ -232,7 +235,7 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: #A63030;
     }
   }
 }
@@ -256,7 +259,7 @@ nav {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
-    color: $gray;
+    color: white;
     font-size: 22px;
     font-style: italic;
   }
@@ -273,14 +276,42 @@ nav {
 
 .wrapper-footer {
   margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  background-color: $white;
 }
 
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+.item {
+  padding: 1em 1em;
+}
+
+
+.posts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 200px;
+  grid-gap: 1rem;
+}
+
+.posts .project {
+  // width: auto;
+  border: 1px solid lightgray;
+}
+
+.posts .project > .thumb {
+  // width: 200px;
+  height: 120px;
+  background: orange;
+}
+
+.project h3 {
+  font-size: .85em;
+  padding: 0 1em;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

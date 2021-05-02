@@ -4,12 +4,15 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hey! I'm Kanoa Ichiyanagi, a Violinist/Violist and Composer!
 
-### More Information
+I'm currently pursuing a Performer-Composer Bachelor’s Degree at the California Institute of the Arts under performer-composer Andrew McIntosh.
+Though I mainly play Violin and Viola, I love playing all kinds of instruments including Theremin, Koto, and Guitalele. I also have experience in many different genres including baroque, jazz, new music and more. 
+I love scoring films and games, most of my recent work includes many CalArts student films, and games from game jams like the GB game jam, Godot Wild Jam, and PIG Jam.
 
-A place to include any other types of information that you'd like to include about yourself.
+I love working with other people, so if you're interested in collaborating, please contact me!
+
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[{{site.footer-links.email}}](mailto:{{site.footer-links.email}})

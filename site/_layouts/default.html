@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
 
     {% include meta.html %}
 
@@ -27,8 +27,11 @@
           </div>
 
           <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
+            <a href="{{ site.baseurl }}/index">Home</a>
             <a href="{{ site.baseurl }}/about">About</a>
+            <a href="{{ site.baseurl }}/portfolio">Portfolio</a>
+            <a href="{{ site.baseurl }}/contact">Contact</a>
+           
           </nav>
         </header>
       </div>
@@ -42,6 +45,7 @@
       <div class="container">
         <footer class="footer">
           {% include svg-icons.html %}
+          <br/small>&copy; 2021 Kanoa Ichiyanagi</small>
         </footer>
       </div>
     </div>
