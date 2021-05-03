@@ -218,6 +218,7 @@ nav {
   margin-top: 10px; //
   font-family: $helveticaNeue;
   font-size: 18px;
+  font-color: #A63030;
 
   @include mobile {
     float: none;
@@ -278,7 +279,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
-  background-color: $white;
+  background-color:#FFCBCB;
 }
 
 footer {
@@ -290,6 +291,10 @@ footer {
   padding: 1em 1em;
 }
 
+.item2 {
+  padding: 1em 1em;
+  padding-left: 12%;
+}
 
 .posts {
   display: grid;
@@ -305,7 +310,7 @@ footer {
 .posts .project > .thumb {
   // width: 200px;
   height: 120px;
-  background: maroon;
+  background: #A63030;
 }
 
 .project h3 {
@@ -313,6 +318,10 @@ footer {
   padding: 0 1em;
 }
 
+.navicons {
+  font-size: 40px;
+  font-color: #A63030;
+}
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
