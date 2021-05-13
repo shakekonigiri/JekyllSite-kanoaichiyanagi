@@ -77,6 +77,14 @@ body {
   width: 100%;
 }
 
+.containerhome {
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 200px 10px;
+  width: 100%;
+  align-text: center;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #A63030;
@@ -110,7 +118,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: #666;
+  color: #A63030;
 }
 
 p {
@@ -238,6 +246,32 @@ img {
   }
 }
 
+.home-title {
+  margin: 0;
+  color: #A63030;
+  text-align: center;
+  cursor: pointer;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  letter-spacing: 1px;
+}
+
+.home-description {
+  margin: 10px 0 0 0;
+  color: #A63030;
+  text-align: center;
+  font-size: 25px;
+}
+
+.home-nav {
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 23px;
+  font-color: #A63030;
+}
+
 .site-name {
   margin: 0;
   color: #A63030;
@@ -281,7 +315,7 @@ nav {
 
 nav a {
   margin-left: 20px;
-  color: #333;
+  color: #A63030;
   text-align: right;
   font-weight: 300;
   letter-spacing: 1px;
@@ -335,12 +369,24 @@ footer {
 }
 
 .item {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.wrapper {
   padding: 1em 1em;
 }
 
-.item2 {
-  padding: 1em 1em;
-  padding-left: 12%;
+.responsive {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .posts {
@@ -363,6 +409,15 @@ footer {
 .navicons {
   font-size: 40px;
   font-color: #A63030;
+}
+
+@media screen and (max-width: 330px) {
+  .navicons {
+    float: none;
+    margin-top: 9px;
+    display: block;
+    font-size: 25px;
+  }
 }
 
 .highlight {

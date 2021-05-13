@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
+![Profile pic](https://avatars.githubusercontent.com/u/63765154?v=4)
 
 Hey! I'm Kanoa Ichiyanagi, a Violinist/Violist and Composer!
 
@@ -11,8 +12,3 @@ Though I mainly play Violin and Viola, I love playing all kinds of instruments i
 I love scoring films and games, most of my recent work includes many CalArts student films, and games from game jams like the GB game jam, Godot Wild Jam, and PIG Jam.
 
 I love working with other people, so if you're interested in collaborating, please contact me!
-
-
-### Contact me
-
-[{{site.footer-links.email}}](mailto:{{site.footer-links.email}})
