@@ -11,4 +11,4 @@ Instagram: [{{site.footer-links.instagram}}](https://www.instagram.com/Shake_oni
 
 Twitter: [{{site.footer-links.twitter}}](https://twitter.com/shakekonigiri)
 
-Soundcloud: [{{site.footer-links.soundcloud}}]({https://soundcloud.com/shakeonigiri)
+Soundcloud: [{{site.footer-links.soundcloud}}](https://soundcloud.com/shakeonigiri)
